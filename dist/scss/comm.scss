@@ -471,6 +471,8 @@ $md: 768px;
 $color-main: #a9c9a0;
 $black: #202020;
 #info-main {
+  animation-direction: alternate;
+  animation-duration: 3000s;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   div {
@@ -507,6 +509,8 @@ $black: #202020;
   // ANIMATION
 
   .has-animation {
+    // animation-direction: alternate;
+    animation-duration: 120ms;
     position: relative;
     p,
     img {
@@ -515,6 +519,7 @@ $black: #202020;
     &.animate-in {
       p,
       img {
+        animation-duration: 120ms;
         animation: textHidden 0.1s 1.1s forwards;
       }
       &:before,

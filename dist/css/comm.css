@@ -417,6 +417,8 @@ legend {
 }
 
 #info-main {
+  animation-direction: alternate;
+  animation-duration: 3000s;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
@@ -454,6 +456,7 @@ legend {
   color: #a9c9a0;
 }
 #info-main .has-animation {
+  animation-duration: 120ms;
   position: relative;
 }
 #info-main .has-animation p,
@@ -462,6 +465,7 @@ legend {
 }
 #info-main .has-animation.animate-in p,
 #info-main .has-animation.animate-in img {
+  animation-duration: 120ms;
   animation: textHidden 0.1s 1.1s forwards;
 }
 #info-main .has-animation.animate-in:before, #info-main .has-animation.animate-in:after {
