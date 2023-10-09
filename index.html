@@ -46,6 +46,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./dist/css/comm.css" />
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -146,14 +150,30 @@
         </div> -->
         <section id="Contents" class="sec-c">
           <div class="container">
-            <div>집중케어</div>
-            <div>클렌징</div>
-            <div>스킨<em>에센스</em></div>
-            <div>로션크림</div>
-            <div>아이케어<em>마스크팩</em></div>
-            <div>헤어바디</div>
-            <div>메이크업</div>
-            <div>남성라인</div>
+            <div class="animate__animated animate__bounce infinite">
+              집중케어
+            </div>
+            <div class="animate__animated animate__backInDown infinite">
+              클렌징
+            </div>
+            <div class="animate__animated animate__bounceInDown infinite">
+              스킨<em>에센스</em>
+            </div>
+            <div class="animate__animated animate__backInUp infinite">
+              로션크림
+            </div>
+            <div class="animate__animated animate__rotateInUpRight infinite">
+              아이케어<em>마스크팩</em>
+            </div>
+            <div class="animate__animated animate__zoomIn infinite">
+              헤어바디
+            </div>
+            <div class="animate__animated animate__backInLeft infinite">
+              메이크업
+            </div>
+            <div class="animate__animated animate__heartBeat infinite">
+              남성라인
+            </div>
           </div>
         </section>
         <section
@@ -326,7 +346,7 @@
         <section id="info-main" class="sec-g bg-light">
           <br />
           <div class="has-animation animation-ltr" data-delay="5000">
-            <h2 class="bigger">Efforts for Fresh Cosmetics in Seed Water</h2>
+            <h2 class="bigger">SIDMOOL efforts</h2>
           </div>
 
           <br />
@@ -334,12 +354,12 @@
 
           <div class="has-animation animation-rtl" data-delay="6000">
             <p class="text">
-              For fresh cosmetics of seed water Efforts have already come with
-              the beginning of the seed nine years ago It's on. Seed water is
-              Since I started using natural preservatives If possible, to sell
-              the product within 3 months of the manufacturing date I've been
-              building a system. Seed water is for your skin health I'm always
-              trying my best. Keeping a fresh manufacturing date is one of them.
+              시드물의 신선한 화장품을 위한 노력은 이미 9년전 시드물의 시작과
+              함께 시작됐습니다. 시드물은 천연보존제를 사용하기 시작하면서부터
+              가능하면 제조일 3개월 이내 제품을 판매하기 위해서 시스템을 구축해
+              왔습니다. 시드물은 고객님들의 피부건강을 위해서 항상 최선을 다해서
+              노력하고 있습니다. 신선한 제조일을 유지하는 것은 그중 하나입니다.
+              감사합니다.
             </p>
           </div>
           <br />
@@ -363,40 +383,147 @@
             <p class="bigger">JOIN US. ☺</p>
           </div>
         </section>
-        <section id="info" class="sec-g bg-light">
-          <div class="container">
-            <div class="title mb-5">
-              <h2
-                data-aos="fade-up"
-                data-aos-offset="40"
-                data-aos-delay="50"
-                data-aos-duration="300"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center"
-              >
-                SIDMOOL is love
-              </h2>
-            </div>
-          </div>
-        </section>
-        <section id="play" class="sec-g"></section>
 
-        <section id="portfolio" class="sec-g">
+        <section
+          id="portfolio"
+          class="sec-g"
+          data-aos="fade-up"
+          data-aos-offset="50"
+          data-aos-delay="50"
+          data-aos-duration="300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div class="title d-flex justify-content-center mb-5">
-            <h2
-              data-aos="fade-up"
-              data-aos-offset="50"
-              data-aos-delay="50"
-              data-aos-duration="300"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-            >
-              portfolio
-            </h2>
+            <h2 class="blind">portfolio</h2>
+            <ul id="categories" class="clr">
+              <li class="pusher"></li>
+              <li>
+                <div>
+                  <img
+                    src="./dist/image/derick-mckinney-hPcrY_me2cI-unsplash.jpg"
+                    alt=""
+                  />
+                  <h1>스킨케어</h1>
+                  <p>토너/로션/올인원/에센스/크림/미스트/오일</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
+                    alt=""
+                  />
+                  <h1>마스크팩</h1>
+                  <p>시트팩/패드/페이셜팩/코팩/패치</p>
+                </div>
+              </li>
+              <li class="pusher"></li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
+                    alt=""
+                  />
+                  <h1>클렌징</h1>
+                  <p>클렌징폼/젤/오일/워터/리무버/필링/패드</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
+                    alt=""
+                  />
+                  <h1>선케어</h1>
+                  <p>선블록/태닝/에프터선</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
+                    alt=""
+                  />
+                  <h1>메이크업</h1>
+                  <p>립메이크업/베이스메이크업/아이메이크업</p>
+                </div>
+              </li>
+              <li class="pusher"></li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg"
+                    alt=""
+                  />
+                  <h1>바디케어</h1>
+                  <p>
+                    로션/오일/샤워/입욕/립케어/핸드케어/제모/왁싱/바디미스트/데오드란트/맘&베이비/선물세트/풋케어
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
+                    alt=""
+                  />
+                  <h1>헤어케어</h1>
+                  <p>
+                    샴푸/린스/트리트먼트/팩/에어에센스/염색약/펌/헤어기기/스타일링/헤어브러쉬
+                  </p>
+                </div>
+              </li>
+              <li class="pusher"></li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg"
+                    alt=""
+                  />
+                  <h1>향수</h1>
+                  <p>여성향수/남성향수/홈 프래그런스/선물세트</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg"
+                    alt=""
+                  />
+                  <h1>네일</h1>
+                  <p>플리쉬/팁/스티커/반경화/케어</p>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <img
+                    src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
+                    alt=""
+                  />
+                  <h1>미용용품</h1>
+                  <p>
+                    메이크업소품/스킨케어소품/아이소품/헤어·바디소품/미용관리/미용가전/미용잡화
+                  </p>
+                </div>
+              </li>
+              <li class="pusher"></li>
+              <li>
+                <div>
+                  <img
+                    src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"
+                    alt=""
+                  />
+                  <h1>남성</h1>
+                  <p>
+                    스킨케어/헤어케어/쉐이빙/향수/메너용품/메이크업/바디케어
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
         <section id="contect" class="sec-g bg-light">
@@ -408,30 +535,6 @@
       <footer class="container"></footer>
     </div>
 
-    <!-- <script>
-      $(document).ready(function () {
-        // navbar 자식 중 a 태그를 클릭했을 때
-        $(".navbar a").on("click", function (event) {
-          // 만약 this.hash가 비어있지 않다면...
-          if (this.hash !== "") {
-            // 기본 이벤트를 막는다
-            event.preventDefault();
-
-            let hash = this.hash;
-            console.log(hash);
-            $("body,html").animate(
-              {
-                scrollTop: $(hash).offset().top,
-              },
-              900,
-              function () {
-                window.location.hash = hash;
-              }
-            );
-          }
-        });
-      });
-    </script> -->
     <script>
       AOS.init();
     </script>

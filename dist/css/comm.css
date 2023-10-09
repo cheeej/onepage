@@ -50,6 +50,11 @@ legend {
 #intro body {
   overflow-x: hidden;
 }
+#intro .navbar.color-change {
+  background-color: #202e12;
+  height: 50px;
+  color: rgba(255, 254, 255, 0.8);
+}
 #intro .sidmool {
   display: flex;
   font-size: 60px;
@@ -171,7 +176,7 @@ legend {
   position: relative;
   width: 100%;
   height: 32vw;
-  background: url(../image/bnr2.png) no-repeat 40% 100%;
+  background: url(../image/bnr2.png) 40% 100% no-repeat fixed;
 }
 #about .sec-a {
   padding-bottom: 300px;
@@ -530,6 +535,145 @@ legend {
   100% {
     opacity: 1;
   }
+}
+
+.sec-p {
+  padding: -50px 100px;
+}
+
+#portfolio {
+  /* HEX CONTENT */
+  /* HOVER EFFECT  */
+}
+#portfolio #categories {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+#portfolio .clr:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#portfolio #categories li {
+  position: relative;
+  list-style-type: none;
+  width: 27.8571428571%; /* = (100-2.5) / 3.5 */
+  padding-bottom: 32.1676014517%; /* =  width /0.866 */
+  float: left;
+  overflow: hidden;
+  visibility: hidden;
+  transform: rotate(-60deg) skewY(30deg);
+}
+#portfolio #categories li:nth-child(3n+2) {
+  margin: 0 1%;
+}
+#portfolio #categories li:nth-child(6n+4) {
+  margin-left: 0.5%;
+}
+#portfolio #categories li:nth-child(6n+4),
+#portfolio #categories li:nth-child(6n+5),
+#portfolio #categories li:nth-child(6n+6) {
+  margin-top: -6.9285714285%;
+  margin-bottom: -6.9285714285%;
+  transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+#portfolio #categories li:nth-child(6n+4):last-child,
+#portfolio #categories li:nth-child(6n+5):last-child,
+#portfolio #categories li:nth-child(6n+6):last-child {
+  margin-bottom: 0%;
+}
+#portfolio #categories li * {
+  position: absolute;
+  visibility: visible;
+}
+#portfolio #categories li > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  transform: skewY(-30deg) rotate(60deg);
+  -webkit-backface-visibility: hidden;
+}
+#portfolio #categories li img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+#portfolio #categories div h1,
+#portfolio #categories div p {
+  width: 100%;
+  padding: 0 5%;
+  background-color: #008080;
+  background-color: rgba(109, 133, 93, 0.8);
+  font-family: "Raleway", sans-serif;
+  transition: top 0.2s ease-out, bottom 0.2s ease-out, 0.2s padding 0.2s ease-out;
+}
+#portfolio #categories li h1 {
+  bottom: 110%;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.5em;
+  padding-top: 100%;
+  padding-bottom: 100%;
+}
+#portfolio #categories li h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 45%;
+  width: 10%;
+  text-align: center;
+  z-index: 1;
+  border-bottom: 2px solid #fff;
+}
+#portfolio #categories li p {
+  padding-top: 50%;
+  top: 110%;
+  padding-bottom: 50%;
+}
+#portfolio #categories li div:hover h1 {
+  bottom: 50%;
+  padding-bottom: 10%;
+}
+#portfolio #categories li div:hover p {
+  top: 50%;
+  padding-top: 10%;
+}
+#portfolio #fork {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 0.5em 0.7em;
+  margin: 1%;
+  transition: color 0.5s;
+  overflow: hidden;
+}
+#portfolio #fork:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+  transform-origin: 0 0;
+  transform: translateX(-100%) skewX(-45deg);
+  transition: transform 0.5s;
+}
+#portfolio #fork:hover {
+  color: #fff;
+}
+#portfolio #fork:hover:before {
+  transform: translateX(0) skewX(-45deg);
 }
 
 :root,
