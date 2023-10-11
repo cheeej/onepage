@@ -61,6 +61,15 @@ body {
   line-height: 1.5;
 }
 
+.navbar-collapse.show {
+  position: relative;
+  top: 30px;
+  left: 0;
+}
+.navbar-collapse.show a {
+  font-weight: 100;
+}
+
 #intro {
   height: 325vw;
 }
@@ -79,16 +88,6 @@ body {
   background-color: #202e12;
   height: 50px;
   color: rgba(255, 254, 255, 0.8);
-}
-#intro .navbar {
-  position: relative;
-}
-#intro .navbar-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  color: #fff;
 }
 #intro .sidmool {
   display: flex;

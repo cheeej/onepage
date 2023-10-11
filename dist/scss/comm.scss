@@ -67,7 +67,15 @@ body {
   box-sizing: border-box;
   line-height: 1.5;
 }
-
+.navbar-collapse.show {
+  position: relative;
+  top: 30px;
+  left: 0;
+  a {
+    // color: #fff;
+    font-weight: 100;
+  }
+}
 #intro {
   // @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
   height: 325vw;
@@ -89,16 +97,7 @@ body {
       color: rgba(255, 254, 255, 0.8);
     }
   }
-  .navbar {
-    position: relative;
-  }
-  .navbar-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    color: #fff;
-  }
+
   .sidmool {
     display: flex;
     font-size: 60px;
