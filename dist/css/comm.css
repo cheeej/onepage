@@ -62,7 +62,12 @@ body {
 }
 
 #intro {
-  height: 390vw;
+  height: 325vw;
+}
+@media screen and (max-width: 744px) {
+  #intro {
+    height: 340vw;
+  }
 }
 #intro html {
   scroll-behavior: smooth;
@@ -97,7 +102,7 @@ body {
   left: -25vw;
   top: -50vw;
   width: 150vw;
-  height: 430vw;
+  height: 340vw;
   background-image: url(../image/1.jpg);
   background-size: cover;
   z-index: -1;
@@ -105,7 +110,7 @@ body {
 }
 @media screen and (max-width: 744px) {
   #intro .bg {
-    height: 440vw;
+    height: 350vw;
   }
 }
 #intro span {
@@ -120,25 +125,25 @@ body {
   font-size: 120px;
 }
 #intro .c2 {
-  margin-top: 100vw;
+  margin-top: 50vw;
 }
 #intro .c3 {
-  margin-top: 150vw;
+  margin-top: 100vw;
 }
 #intro .c4 {
-  margin-top: 200vw;
+  margin-top: 150vw;
 }
 #intro .c5 {
-  margin-top: 250vw;
+  margin-top: 200vw;
 }
 #intro .c6 {
-  margin-top: 300vw;
+  margin-top: 250vw;
 }
 #intro .c7 {
-  margin-top: 350vw;
+  margin-top: 300vw;
 }
 #intro .c8 {
-  margin-top: 400vw;
+  margin-top: 350vw;
 }
 #intro .c9 {
   margin-top: 450vw;
@@ -180,7 +185,7 @@ body {
 }
 @media screen and (max-width: 428px) {
   #contents {
-    padding: 150px 0 30px;
+    padding: 150px 0 55px;
   }
 }
 #contents .container {
@@ -256,7 +261,7 @@ body {
 }
 #service .carousel-cont {
   position: relative;
-  margin: 0 auto;
+  margin: 3.75rem auto;
 }
 @media screen and (max-width: 700px) {
   #service .carousel-cont h2 {

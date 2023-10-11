@@ -70,9 +70,9 @@ body {
 
 #intro {
   // @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
-  height: 390vw;
+  height: 325vw;
   @media screen and (max-width: 744px) {
-    // height: 392vw;
+    height: 340vw;
   }
 
   html {
@@ -109,13 +109,13 @@ body {
 
   .bg {
     @media screen and (max-width: 744px) {
-      height: 440vw;
+      height: 350vw;
     }
     position: absolute;
     left: -25vw;
     top: -50vw;
     width: 150vw;
-    height: 430vw;
+    height: 340vw;
     background-image: url(../image/1.jpg);
     background-size: cover;
     z-index: -1;
@@ -137,31 +137,31 @@ body {
   }
 
   .c2 {
-    margin-top: 100vw;
+    margin-top: 50vw;
   }
 
   .c3 {
-    margin-top: 150vw;
+    margin-top: 100vw;
   }
 
   .c4 {
-    margin-top: 200vw;
+    margin-top: 150vw;
   }
 
   .c5 {
-    margin-top: 250vw;
+    margin-top: 200vw;
   }
 
   .c6 {
-    margin-top: 300vw;
+    margin-top: 250vw;
   }
 
   .c7 {
-    margin-top: 350vw;
+    margin-top: 300vw;
   }
 
   .c8 {
-    margin-top: 400vw;
+    margin-top: 350vw;
   }
   .c9 {
     margin-top: 450vw;
@@ -231,10 +231,11 @@ body {
 
 #contents {
   // margin-top: 10px;
-  padding: 20px 0 10px;
+
   @media screen and (max-width: 428px) {
-    padding: 150px 0 30px;
+    padding: 150px 0 55px;
   }
+  padding: 20px 0 10px;
   .container {
     @media screen and (max-width: 744px) {
       gap: 20px;
@@ -299,12 +300,13 @@ body {
     padding: 100px 0 150px;
     background-color: #fff;
 
+    // height: 45rem;
     height: auto;
   }
   .carousel-cont {
     // width: 80vw;
     position: relative;
-    margin: 0 auto;
+    margin: 3.75rem auto;
     h2 {
       @media screen and (max-width: 700px) {
         display: none;
