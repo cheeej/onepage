@@ -24,13 +24,22 @@ legend {
   background-color: #b4b085;
 }
 
+.sec-s {
+  padding: 150px 100px;
+}
+@media screen and (max-width: 428px) {
+  .sec-s {
+    padding: 50px 55px 100px;
+  }
+}
+
 .sec-g {
   padding: 150px 100px;
 }
 
 @media screen and (max-width: 744px) {
   .sec-i {
-    padding: 150px 55px;
+    padding: 100px 55px 100px;
   }
 }
 
@@ -71,11 +80,11 @@ body {
 }
 
 #intro {
-  height: 325vw;
+  height: 285vw;
 }
 @media screen and (max-width: 744px) {
   #intro {
-    height: 340vw;
+    height: 290vw;
   }
 }
 #intro html {
@@ -101,7 +110,7 @@ body {
   left: -25vw;
   top: -50vw;
   width: 150vw;
-  height: 340vw;
+  height: 320vw;
   background-image: url(../image/1.jpg);
   background-size: cover;
   z-index: -1;
@@ -109,7 +118,7 @@ body {
 }
 @media screen and (max-width: 744px) {
   #intro .bg {
-    height: 350vw;
+    height: 320vw;
   }
 }
 #intro span {
@@ -124,28 +133,38 @@ body {
   font-size: 120px;
 }
 #intro .c2 {
-  margin-top: 50vw;
+  margin-top: 60vw;
+}
+@media screen and (max-width: 744px) {
+  #intro .c2 {
+    margin-top: 80vw;
+  }
+}
+@media screen and (max-width: 428px) {
+  #intro .c2 {
+    margin-top: 100vw;
+  }
 }
 #intro .c3 {
   margin-top: 100vw;
 }
 #intro .c4 {
-  margin-top: 150vw;
+  margin-top: 140vw;
 }
 #intro .c5 {
-  margin-top: 200vw;
+  margin-top: 180vw;
 }
 #intro .c6 {
-  margin-top: 250vw;
+  margin-top: 220vw;
 }
 #intro .c7 {
-  margin-top: 300vw;
+  margin-top: 260vw;
 }
 #intro .c8 {
-  margin-top: 350vw;
+  margin-top: 300vw;
 }
 #intro .c9 {
-  margin-top: 450vw;
+  margin-top: 340vw;
 }
 #intro a {
   position: sticky;
@@ -491,6 +510,11 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+@media screen and (max-width: 744px) {
+  #info-main .sec-g .sec-i {
+    margin: 100px 0 75px;
+  }
+}
 @media screen and (max-width: 428px) {
   #info-main .sec-i {
     margin: 150px 0 75px;
@@ -736,6 +760,7 @@ body {
   margin: 0 auto;
   -o-object-fit: cover;
      object-fit: cover;
+  filter: grayscale(0.2);
 }
 @media (max-width: 428px) {
   #portfolio #categories li img {

@@ -29,15 +29,21 @@ $md: 768px;
 .bg-ccj {
   background-color: #b4b085;
 }
-
+.sec-s {
+  padding: 150px 100px;
+  @media screen and (max-width: 428px) {
+    padding: 50px 55px 100px;
+  }
+}
 .sec-g {
   padding: 150px 100px;
 }
 .sec-i {
   @media screen and (max-width: 744px) {
-    padding: 150px 55px;
+    padding: 100px 55px 100px;
   }
 }
+
 .wrap {
   padding-top: 61px;
 }
@@ -78,9 +84,9 @@ body {
 }
 #intro {
   // @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
-  height: 325vw;
+  height: 285vw;
   @media screen and (max-width: 744px) {
-    height: 340vw;
+    height: 290vw;
   }
 
   html {
@@ -108,13 +114,13 @@ body {
 
   .bg {
     @media screen and (max-width: 744px) {
-      height: 350vw;
+      height: 320vw;
     }
     position: absolute;
     left: -25vw;
     top: -50vw;
     width: 150vw;
-    height: 340vw;
+    height: 320vw;
     background-image: url(../image/1.jpg);
     background-size: cover;
     z-index: -1;
@@ -136,7 +142,13 @@ body {
   }
 
   .c2 {
-    margin-top: 50vw;
+    @media screen and (max-width: 744px) {
+      margin-top: 80vw;
+    }
+    @media screen and (max-width: 428px) {
+      margin-top: 100vw;
+    }
+    margin-top: 60vw;
   }
 
   .c3 {
@@ -144,26 +156,26 @@ body {
   }
 
   .c4 {
-    margin-top: 150vw;
+    margin-top: 140vw;
   }
 
   .c5 {
-    margin-top: 200vw;
+    margin-top: 180vw;
   }
 
   .c6 {
-    margin-top: 250vw;
+    margin-top: 220vw;
   }
 
   .c7 {
-    margin-top: 300vw;
+    margin-top: 260vw;
   }
 
   .c8 {
-    margin-top: 350vw;
+    margin-top: 300vw;
   }
   .c9 {
-    margin-top: 450vw;
+    margin-top: 340vw;
   }
 
   a {
@@ -534,6 +546,11 @@ body {
 $color-main: #a9c9a0;
 $black: #202020;
 #info-main {
+  @media screen and (max-width: 744px) {
+    .sec-g .sec-i {
+      margin: 100px 0 75px;
+    }
+  }
   @media screen and (max-width: 428px) {
     // margin-top: 100px;
     .sec-i {
@@ -810,6 +827,7 @@ $black: #202020;
     height: 100%;
     margin: 0 auto;
     object-fit: cover;
+    filter: grayscale(0.2);
   }
 
   #categories div h1,
