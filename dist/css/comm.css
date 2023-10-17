@@ -81,7 +81,7 @@ body {
 
 .demo-wrapper {
   width: 100%;
-  height: 132vw;
+  height: 125vw;
   overflow: hidden;
 }
 @media screen and (max-width: 744px) {
@@ -177,7 +177,7 @@ body {
 }
 
 #intro {
-  height: 285vw;
+  height: 220vw;
 }
 @media screen and (max-width: 744px) {
   #intro {
@@ -205,9 +205,9 @@ body {
 #intro .bg {
   position: absolute;
   left: -25vw;
-  top: 165vw;
+  top: 145vw;
   width: 150vw;
-  height: 230vw;
+  height: 190vw;
   background-image: url(../image/bg111111.jpg);
   background-size: cover;
   z-index: -1;
@@ -230,7 +230,7 @@ body {
   font-size: 120px;
 }
 #intro .c2 {
-  margin-top: 60vw;
+  margin-top: 57vw;
 }
 @media screen and (max-width: 744px) {
   #intro .c2 {
@@ -243,19 +243,19 @@ body {
   }
 }
 #intro .c3 {
-  margin-top: 100vw;
+  margin-top: 80vw;
 }
 #intro .c4 {
-  margin-top: 140vw;
+  margin-top: 110vw;
 }
 #intro .c5 {
-  margin-top: 180vw;
+  margin-top: 140vw;
 }
 #intro .c6 {
-  margin-top: 220vw;
+  margin-top: 170vw;
 }
 #intro .c7 {
-  margin-top: 260vw;
+  margin-top: 196vw;
 }
 #intro .c8 {
   margin-top: 300vw;
