@@ -84,9 +84,18 @@ body {
   }
 }
 .demo-wrapper {
-  @media screen and (max-width: 744px) {
-    height: 245vw;
+  @media screen and (max-width: 1440px) {
+    height: 160vw;
   }
+  @media screen and (max-width: 1024px) {
+    height: 200vw;
+  }
+  @media screen and (max-width: 1024px) {
+    height: 250vw;
+  }
+  // @media screen and (max-width: 744px) {
+  //   height: 245vw;
+  // }
   width: 100%;
   height: 125vw;
   overflow: hidden;
@@ -200,8 +209,14 @@ body {
 #intro {
   // @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
   height: 220vw;
+  @media screen and (max-width: 1440px) {
+    height: 215vw;
+  }
+  @media screen and (max-width: 1024px) {
+    height: 220vw;
+  }
   @media screen and (max-width: 744px) {
-    height: 290vw;
+    height: 230vw;
   }
 
   html {
@@ -228,8 +243,14 @@ body {
   }
 
   .bg {
+    @media screen and (max-width: 1440px) {
+      height: 220vw;
+    }
+    @media screen and (max-width: 1024px) {
+      height: 260vw;
+    }
     @media screen and (max-width: 744px) {
-      height: 350vw;
+      height: 324vw;
     }
     position: absolute;
     left: -25vw;

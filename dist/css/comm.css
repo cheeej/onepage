@@ -84,9 +84,19 @@ body {
   height: 125vw;
   overflow: hidden;
 }
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 1440px) {
   .demo-wrapper {
-    height: 245vw;
+    height: 160vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .demo-wrapper {
+    height: 200vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .demo-wrapper {
+    height: 250vw;
   }
 }
 .demo-wrapper :root {
@@ -179,9 +189,19 @@ body {
 #intro {
   height: 220vw;
 }
+@media screen and (max-width: 1440px) {
+  #intro {
+    height: 215vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #intro {
+    height: 220vw;
+  }
+}
 @media screen and (max-width: 744px) {
   #intro {
-    height: 290vw;
+    height: 230vw;
   }
 }
 #intro html {
@@ -213,9 +233,19 @@ body {
   z-index: -1;
   filter: blur(120px);
 }
+@media screen and (max-width: 1440px) {
+  #intro .bg {
+    height: 220vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #intro .bg {
+    height: 260vw;
+  }
+}
 @media screen and (max-width: 744px) {
   #intro .bg {
-    height: 350vw;
+    height: 324vw;
   }
 }
 #intro span {

@@ -163,6 +163,7 @@ $(document).ready(function () {
   $(".has-animation").each(function (index) {
     $(this)
       .delay($(this).data("delay"))
+      // .offset($(this).data("offset"))
       .queue(function () {
         $(this).addClass("animate-in");
       });
