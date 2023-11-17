@@ -121,7 +121,7 @@ body {
   color: white;
 }
 .demo-wrapper body {
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 .demo-wrapper h2 {
@@ -231,7 +231,7 @@ body {
   background-image: url(../image/bg111111.jpg);
   background-size: cover;
   z-index: -1;
-  filter: blur(120px);
+  filter: blur(50px);
 }
 @media screen and (max-width: 1440px) {
   #intro .bg {
